@@ -1,141 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Welcome to Cross River Market</title>
-		<style>
-			* {
-				margin: 0;
-				padding: 0;
-				box-sizing: border-box;
-			}
-			body {
-				/* background-color: blueviolet; */
-				width: 100%;
-				height: 100%;
-				padding: 3% 0;
-			}
 
-			.logo-container {
-				margin: 0 auto 2%;
-				width: 150px;
-				height: 150px;
-			}
-			.logo-container img {
-				width: 100%;
-			}
-			h1,
-			h2,
-			h3 {
-				text-align: center;
-				margin-left: auto;
-				margin-right: auto;
-				padding: 0.5%;
-			}
-			h1 {
-				margin-top: 2%;
-			}
-			section {
-				width: 85%;
-				margin: 0 auto;
-			}
-			p {
-				padding-top: 0.5%;
-				padding-bottom: 0.5%;
-			}
-			p:first-of-type {
-				margin-top: 2%;
-			}
-			p:last-of-type {
-				text-align: left;
-				padding-top: 2%;
-			}
-			p span {
-				display: block;
-			}
-			.timer {
-				background-color: rgb(30, 5, 121);
-				color: #fff;
-				padding: 2% 8%;
-				margin-top: 3%;
-			}
-			.timer p {
-				text-align: center;
-				font-weight: 700;
-				font-size: 24px;
-				padding-top: 0;
-			}
-			.timer p span {
-				margin-top: 1%;
-				font-weight: 800;
-			}
-			@media only screen and (max-width: 600px) {
-				body {
-					padding: 10% 0;
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<div class="logo-container">
-			<img src="./cross-river-state-logo.png" alt="cross river state logo" />
-		</div>
-		<h1>Government of Cross River State</h1>
-		<h2>Department of E-Commerce</h2>
-		<h3>Welcome to Cross River Market</h3>
-		<section>
-			<p>
-				An initiative of Governor Ben Ayade, the Digital Governor of Cross River
-				State of Nigeria, powered by the Cross River State Department of
-				e-Commerce.
-			</p>
-			<p>
-				With the increasing effect of the Covid-19 pandemic, and in line with
-				the Governor Ben Ayade's drive and passion to keep the people of Cross
-				River State safe, the Governor has setup <em>Cross River Market</em>, an
-				online-eCommerce portal to reduce the level of human physical
-				interaction in the state, to prevent the spread of Covid-19, but
-				increase the level of trade and e-Commerce in the State
-			</p>
-			<p>
-				This portal is the first of its kind by a sub-national government, and
-				will ensure the development, protection, and increse in commercial
-				activities in Cross River State and beyond.
-			</p>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Welcome to Cross River Market</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            /* background-color: blueviolet; */
+            width: 100%;
+            height: 100%;
+            padding: 3% 0;
+        }
+        
+        .logo-container {
+            margin: 0 auto 2%;
+            width: 150px;
+            height: 150px;
+        }
+        
+        .logo-container img {
+            width: 100%;
+        }
+        
+        h1,
+        h2,
+        h3 {
+            text-align: center;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 0.5%;
+        }
+        
+        h1 {
+            margin-top: 2%;
+        }
+        
+        section {
+            width: 85%;
+            margin: 0 auto;
+        }
+        
+        p {
+            padding-top: 0.5%;
+            padding-bottom: 0.5%;
+        }
+        
+        p:first-of-type {
+            margin-top: 2%;
+        }
+        
+        p:last-of-type {
+            text-align: left;
+            padding-top: 2%;
+        }
+        
+        p span {
+            display: block;
+        }
+        
+        .timer {
+            background-color: rgb(30, 5, 121);
+            color: #fff;
+            padding: 2% 8%;
+            margin-top: 3%;
+        }
+        
+        .timer p {
+            text-align: center;
+            font-weight: 700;
+            font-size: 24px;
+            padding-top: 0;
+        }
+        
+        .timer p span {
+            margin-top: 1%;
+            font-weight: 800;
+        }
+        
+        @media only screen and (max-width: 600px) {
+            body {
+                padding: 10% 0;
+            }
+        }
+    </style>
+</head>
 
-			<p>
-				Bong Duke <span>Special Adviser,</span>
-				<span>Government of Cross River State</span>
-			</p>
-		</section>
-		<section class="timer">
-			<p>The portal will be live in <span id="countDown">000</span></p>
-		</section>
-		<script>
-			let countDownDate = new Date('Apr 19, 2020 00:00:00').getTime();
-			console.log(countDownDate);
-			const x = setInterval(function () {
-				const now = new Date().getTime();
-				const timeInterval = countDownDate - now;
+<body>
+    <div class="logo-container">
+        <img src="./cross-river-state-logo.png" alt="cross river state logo" />
+    </div>
+    <h1>Government of Cross River State</h1>
+    <h2>Department of E-Commerce</h2>
+    <h3>Welcome to Cross River Market</h3>
+    <section>
+        <p>
+            An initiative of Governor Ben Ayade, the Digital Governor of Cross River State of Nigeria, powered by the Cross River State Department of e-Commerce.
+        </p>
+        <p>
+            With the increasing effect of the Covid-19 pandemic, and in line with the Governor Ben Ayade's drive and passion to keep the people of Cross River State safe, the Governor has setup <em>Cross River Market</em>, an online-eCommerce portal to
+            reduce the level of human physical interaction in the state, to prevent the spread of Covid-19, but increase the level of trade and e-Commerce in the State
+        </p>
+        <p>
+            This portal is the first of its kind by a sub-national government, and will ensure the development, protection, and increse in commercial activities in Cross River State and beyond.
+        </p>
 
-				const days = Math.floor(timeInterval / (1000 * 60 * 60 * 24));
-				const hours = Math.floor(
-					(timeInterval % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
-				);
-				const minutes = Math.floor(
-					(timeInterval % (1000 * 60 * 60)) / (1000 * 60)
-				);
-				const seconds = Math.floor((timeInterval % (1000 * 60)) / 1000);
+        <p>
+            Bong Duke <span>Special Adviser,</span>
+            <span>Government of Cross River State</span>
+        </p>
+    </section>
+    <section class="timer">
+        <p>The portal will be live in <span id="countDown">000</span></p>
+    </section>
+    <script>
+        let countDownDate = new Date('Apr 19, 2020 00:00:00').getTime();
+        console.log(countDownDate);
+        const x = setInterval(function() {
+            const now = new Date().getTime();
+            const timeInterval = countDownDate - now;
 
-				const countContainer = document.querySelector('#countDown');
-				countContainer.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+            const days = Math.floor(timeInterval / (1000 * 60 * 60 * 24));
+            const hours = Math.floor(
+                (timeInterval % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
+            );
+            const minutes = Math.floor(
+                (timeInterval % (1000 * 60 * 60)) / (1000 * 60)
+            );
+            const seconds = Math.floor((timeInterval % (1000 * 60)) / 1000);
 
-				if (timeInterval < 0) {
-					clearInterval(x);
-					countContainer.textContent = 'EXPIRED';
-				}
-			}, 1000);
-		</script>
-	</body>
+            const countContainer = document.querySelector('#countDown');
+            countContainer.textContent = `${days}d ${hours}h ${minutes}m ${seconds}s`;
+
+            if (timeInterval <= 0) {
+                clearInterval(x);
+                countContainer.textContent = 'Cross River Market site will be live shortly';
+            }
+        }, 1000);
+    </script>
+</body>
+
 </html>
